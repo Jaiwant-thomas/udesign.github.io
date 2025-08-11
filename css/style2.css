@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    background-color: #232323;
+    color:  #fff;
+    font-family: inherit;
+    font-size: 18px;
+}
+.container{
+    max-width: 1366px;
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+.head{
+    background-color: #f9f6ee;
+    height: 68px;
+    color: black;
+  
+}
+.head ul{
+         display: flex;
+         justify-content: center;
+         list-style: none;
+         gap: 55px;
+         margin-top: -20px;
+}
+li{
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 300;
+}
+li:hover{
+    cursor: pointer;
+    color: #f1ae0e 
+}
+.banner{
+    background-image: url(../img/food.jpg);
+    height: 820px;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.heads{
+    padding: 148px 200px;
+}
+.heads h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.7rem;
+    background-color: #99e54d;
+    width: 165px;
+    color: black;
+    padding: 22px;
+    border-radius: 116px;
+    height: 166px;
+    text-align: center;
+    margin-top: -38px;
+    margin-left: -56px;
+}
+.heads h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: black;
+    margin-top: -72px;
+    margin-left: -25px;
+}
+.heads h5{
+    font-size: 24px;
+    margin-left: -60px;
+    margin-top: 44px;
+}
+.heads h1{
+    margin-left: -62px;
+    margin-top: 26px;
+    font-size: 60px;
+}
+.heads p{
+    font-size: 22px;
+    margin-left: -57px;
+    margin-top: 36px;
+}
+.btn{
+    padding: 14px 30px;
+    margin-top: 35px;
+    margin-left: -47px;
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(241, 174, 14);
+    border: 1px solid rgb(241, 174, 14);
+    border-radius: 20px;
+}
+.btn:hover{
+          cursor: pointer;
+          background-color: #f9f6ee;
+          color: black;
+}
+.mean{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.menu{
+    margin-top: 150px;
+    position: relative;
+}
+.menu img{
+    width: 410px;
+    height: 337px;
+    border-radius: 48px;
+    object-fit: cover;
+}
+.menu h2{
+    margin-left: 143px;
+    margin-top: -178px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.xtra{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+.edge{
+    margin-top: 480px;;
+}
+.edge h2{
+    font-size: 52px;
+    font-family: sans-serif;
+}
+.edge h6{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.edge1{
+    margin-top: 290px;
+}
+.edge p{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 30px
+}
+.edge1 img{
+    width: 540px;
+    height: 540px;
+    border-radius: 60px;
+    object-fit: cover;
+}
+.hill{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.hill1{
+     margin-top: 140px;
+}
+.hill1 img{
+    width: 410px;
+    height: 415px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.eve{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+.raw{
+    margin-top: 90px;
+}
+.raw img{
+    height: 559px;
+    width: 540px;
+    border-radius: 35px;
+    object-fit: cover;
+}
+.raw1{
+    margin-top: 420px;
+}
+.raw1 h2{
+    font-size: 52px;
+    font-family: sans-serif;
+}
+.raw1 h6{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.raw1 p{
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.war{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+.war h2{
+    font-size: 52px;
+    font-family: sans-serif;
+}
+.war1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.ace{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.ace1{
+    margin-top: 50px;
+}
+.ace1 img{
+    height: 484px;
+    width: 565px;
+    object-fit: cover;
+    border-radius: 45px;
+}
+.ace1 h4{
+    margin-left: 210px;
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.btn1{
+    margin-left: 160px;
+    margin-top: 40px;
+    font-size: 26px;
+    font-weight: 200;
+    background-color: #99e54d;
+    padding: 20px 35px;
+    border-radius: 30px;
+    border: 2px solid #232323;
+    cursor: pointer;
+}
+.meal {
+    background-image: url(../img/veg..jpg);
+    height: 607px;
+    margin-top: 40px;
+}
+.heads h3{
+    margin-top: 85px;
+    margin-left: -35px;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.heads h4{
+    margin-top: 30px;
+    font-size: 18px;
+    margin-left: -35px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+.meal2{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: serif;
+    color: #111111;
+    background-color: #99e54d;
+    padding: 7px 20px;
+    border-radius: 19px;
+}
+.meal2:hover{
+    cursor: pointer;
+    background-color: rgb(241, 174, 14);
+}
+.dil{
+    margin-top: 100px;
+}
+.dil h3{
+    margin-top: 12px;
+    margin-left: 30px;
+}
+.dil h4{
+    margin-top: 12px;
+    margin-left: -18px;
+    font-family: auto;
+}
+.dil h5{
+    color: #f1ae0e;
+    margin-left: 27px;
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.will{
+    display: flex;
+    justify-content: center;
+    gap: 195px;
+}
+.mill{
+    background-color: #333333;
+    height: 230px;
+    width: 1300px;
+    position: absolute;
+    margin-top: 120px;
+}
+.mill h4{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    position: relative;
+    margin-top: 75px;
+}
+.mill p{
+    text-align: center;
+    margin-top: 65px;
+    font-size: 20px;
+}

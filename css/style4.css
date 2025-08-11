@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Inter;
+    font-size: 22px;
+    color: #4F9CF9;
+}
+.container{
+    max-width: 1300px;
+    margin: 0  auto;
+    padding: 0;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+    padding: 12px 24px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.menu ul {
+    list-style: none;
+    font-size: 18px;
+    display: flex;
+    gap: 29px;
+    margin-left: 28px;
+    margin-top: 10px;
+    left: 47px;
+}
+.\'button {
+    margin-top: 2px;
+    display: flex;
+    gap: 25px;
+    margin-left: 60px;
+}
+.btn {
+    font-size: 18px;
+    background-color: #FFE492;
+    color: #043873;
+    padding: 13px 40px;
+    border: 1px solid #ffe492;
+}
+.btn:hover{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.btn1 {
+    color: #fff;
+    background-color: #4F9CF9;
+    padding: 13px 24px;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.btn1:hover{
+    background-color: #000;
+    cursor: pointer;
+}
+.more h1{
+    margin-top: 130px;
+    font-size: 64px;
+}
+.more p{
+    font-size: 18px;
+    margin-top: 24px;
+}
+.btn2 {
+    color: #fff;
+    background-color: #4F9CF9;
+    padding: 13px 24px;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.btn2:hover{
+    background-color: #000;
+    cursor: pointer;
+}
+.get {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 70px;
+}
+.and img {
+    height: 450px;
+    width: 558px;
+    object-fit: cover;
+}
+.pro{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 70px;
+}
+.jet h2 {
+    font-size: 74px;
+    color: #212529;
+    margin-top: 50px;
+}
+.jet p {
+    font-size: 18px;
+    margin-top: 30px;
+    color: #212529;
+}

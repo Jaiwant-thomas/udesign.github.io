@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: sans-serif;
+    color: #fff;
+}
+.container{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.well{
+    display: flex;
+        justify-content: space-between
+    }
+.well span{
+    font-size: 42px;
+    font-family: fantasy;
+    color: #b8a269;
+}
+.well ul{
+    list-style: none;
+    font-family: sans-serif;
+    display: flex;
+    gap: 42px;
+    margin-top: 18px;
+}
+li:hover{
+ color: #b8a269;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.btn{
+    background-color: #b8a269;
+    font-size: 18px;
+    font-family: none;
+    padding: 5px;
+    border: 1px solid #b8a269;
+    border-radius: 2px;
+}
+.btn:hover{
+    background-color: #D1A980;
+    color: #000;
+    cursor: pointer;
+}
+.will{
+    background-image: url(../img/barber.jpg);
+    height: 1000px;
+    width: 1330px;
+    object-fit: cover;
+    position: absolute;
+}
+.will h1{
+    margin-left: 763px;
+    margin-top: 456px;
+    font-size: 80px;
+}
+.will h2{
+    margin-left: 680px;
+    font-size: 80px;
+}
+.will h3{
+    margin-left: 925px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.will h4{
+    margin-left: 1028px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.btnn{
+    background-color: #b8a269;
+    font-family: none;
+    margin-left: 960px;
+    margin-top: 50px;
+    font-size: 24px;
+    padding: 15px;
+}
+.btnn:hover{
+    background-color: #D1A980;
+    color: #000;
+    cursor: pointer;
+}
+.will h5{
+    margin-left: 1084px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 400;
+   
+}
+.kill{
+    margin-top: 1088px;
+}
+.kill h2{
+    color: #fff;
+    font-size: 62px;
+    font-weight: 700;
+}
+.kill h3{
+    font-size: 62px;
+}
+.me{
+    margin-top: 50px;
+}
+.me img{
+    height: 480px;
+    width: 652px;
+    object-fit: cover;
+    text-align: center;
+}
+.you{
+    margin-top: 30px;
+    display: flex;
+    gap: 165px;
+}
+.you1 img{
+    background: #232323;
+    height: 340px;
+    width: 420px;
+    object-fit: contain;
+}
+.you2 h3{
+    color: #b8a269;
+    font-size: 28px;
+    margin-top: 18px;
+}
+.you2 h4{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: none;
+    margin-top: 18px;
+}
+.you2 h2{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.you2 p{
+    margin-top: 20px;
+    font-size: 19px;
+    font-family: cursive;
+}
+.in{
+    margin-top: 60px;
+    display: flex;
+    gap:115px;
+    background: #232323;
+    padding: 30px;
+}
+.in1 h3{
+    margin-top: 30px;
+}
+.in1 h2{
+    margin-top: 38px;
+    font-size: 42px;
+}
+.in p{
+    margin-top: 38px;
+    font-size: 16px;
+    font-family: system-ui;
+}
+.in h4{
+    margin-top: 32px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: system-ui;
+}
+.btn1{
+    margin-top: 30px;
+    margin-left: 8px;
+    background-color: #b8a269;
+    font-family: none;
+    font-size: 24px;
+    padding: 15px 46px;
+}
+.btn1:hover{
+    background-color: #D1A980;
+    color: #000;
+    cursor: pointer;
+}
+.in2 img{
+    width: 680px;
+    height: 574px;
+    object-fit: cover;
+}
+
+.pen img{
+    height: 780px;
+    width: 1312px;
+    margin-top: -40px;
+}
+.net{
+    margin-top: 60px;
+}
+.net h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+.net p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.ten{
+    margin-top: 60px;
+    display: flex;
+    gap: 40px;
+}
+.ten1 img{
+    width: 538px;
+    height: 596px;
+    object-fit: cover;
+}
+.ten2{
+    background: #b8a269;
+    width: 330px;
+    height: 260px;
+    text-align: center;
+  
+}
+.ten2 h3{
+    margin-top: 20px;
+    font-size: 32px;
+}
+.one{   
+     display: flex;
+        justify-content: center;
+        gap: 43px;
+        margin-left: 548px;
+        margin-top: -360px;
+}
+.ten3{
+    background: #b8a269;
+    width: 330px;
+    height: 260px;
+    text-align: center;
+  
+}
+.ten3 h3{
+    margin-top: 20px;
+    font-size: 32px;
+}
+.two h2{
+    font-size: 45px;
+    text-align: center;
+    font-family: serif;
+}
+.two1 {
+    margin-top: 40px;
+}
+.two1 h3{
+    margin-top: 30px;
+    font-size: 45px;
+    font-family: auto;
+    color: #b8a269 ;
+    word-spacing: 5px;
+}
+.two1 p{
+    font-size: 22px;
+    font-family: cursive;
+}
+.twoo{
+    display: flex;
+    gap: 52px;
+}
+.two2 h3{
+    font-size: 45px;
+    font-family: auto;
+    color: #b8a269;
+    word-spacing: 11px;
+    margin-top: 40px;
+}
+.two2 p{
+    font-size: 22px;
+    font-family: cursive;
+}
+.two3 h3{
+    font-size: 45px;
+    font-family: auto;
+    color: #b8a269;
+    word-spacing: 8px;
+    margin-top: 40px;
+}
+.two3 p{
+    font-size: 22px;
+    font-family: cursive;
+}
+.two4 h3{
+    font-size: 40px;
+    font-family: auto;
+    color: #b8a269;
+    word-spacing: -6px;
+    margin-top: 40px;
+}
+.two4 p{
+    font-size: 22px;
+    font-family: cursive;
+}
+.two5 h3{
+    font-size: 40px;
+    font-family: auto;
+    color: #b8a269;
+    word-spacing: 24px;
+    margin-top: 40px;
+}
+.two5 p{
+    font-size: 22px;
+    font-family: cursive;
+}
+.five{
+    margin-top: 30px;
+    background-color: #232323;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.six img{
+    height: 172px;
+    width: 188px;
+    margin-top: 61px;
+    margin-left: 110px;
+}
+.six p{
+    font-size: 20px;
+    margin-left: 67px;
+    margin-top: 32px;
+    font-family: cursive;
+}
+.six h3{
+    font-size: 20px;
+    margin-left: 159px;
+    margin-top: 22px;
+    font-family: cursive;
+}
+.six h2{
+    font-size: 20px;
+    margin-left: 67px;
+    margin-top: 20px;
+    font-family: cursive;
+}
+.six1 h3{
+    margin-left: 159px;
+    margin-top: 100px;
+    font-family: serif;
+    font-size: 28px;
+}
+.six1 h2{
+    margin-left: 72px;
+    font-size: 25px;
+    margin-top: -87px;
+    font-family: cursive;
+    margin-bottom: 22px;
+}
+.six1 p{
+    font-size: 20px;
+    margin-left: 116px;
+    margin-top: 25px;
+    font-family: cursive;
+    margin-bottom: 139px;
+}
+.six1 h4{
+    font-size: 22px;
+    margin-left: 116px;
+    margin-top: 12px;
+    font-family: cursive;
+}
+.six2{
+    margin-top: 66px;
+}
+.six2 h3{
+    margin-left: 126px;
+    margin-top: 22px;
+    font-size: 29px;
+}
+.six2 p{
+    margin-left: 78px;
+    margin-top: 72px;
+    font-size: 22px;
+    font-family: cursive;
+}
+.btn4{
+    font-size: 26px;
+    padding: 12px 17px;
+    margin-top: 70px;
+    margin-left: 85px;
+    background-color: #b8a269;
+    color: #fff;
+    border: 1px solid #b8a269;
+}
+.btn4:hover{
+background-color: #fff;
+color: #000;
+cursor: pointer;
+}
+.six3 p{
+    text-align: center;
+    margin-top: -162px;
+    font-size: 24px;
+    font-family: cursive;
+}

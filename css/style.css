@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem; /* use rem for scalable text */
+    line-height: 1.5;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+overflow: hidden;
+  }
+  .logo{
+    display: flex;
+    gap: 238px;
+  }
+  .header{
+    border-bottom: 2px solid #cea176;
+
+  }
+  .logo ul{
+    color: #cea176;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-top: 14px;
+}
+li:hover{
+  color: #fff;
+  cursor: pointer;
+  
+}
+  
+  .btn{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 9px 25px;
+    border: 2px solid #cea176;
+    color: #fff;
+    background-color: black;
+    margin-top: 11px;
+    margin-bottom: 12px;
+    margin-left: -189px;
+  }
+  .btn:hover{
+    cursor: pointer;
+    background-color: #cea176;
+  }
+  
+  .banner{
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    background-image: url(../img/Rectangle\ 3.png);
+  }
+  .banner img{
+    margin-top: 167px;
+    margin-left: 44px;
+}
+ .banner h1{
+    font-size: 70px;
+    margin-left: 112px;
+    margin-top: -193px;
+  }
+  .banner p{
+    margin-left: 50px;
+    font-size: 20px;
+  }
+  .btnn{
+    background-color: transparent;
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 12px 26px;
+    font-size: 20px;
+    border: 1px solid white;
+  }
+  .btnn:hover{
+    cursor: pointer;
+    background-color: #cea176;
+  }
+  .banner h2{
+    margin-top: 62px;
+    position: absolute;
+    background-color: #cea176;
+    border: 1px solid #cea176;
+    margin-left: 892px;
+}
+.feel h3{
+    display: flex;
+        justify-content: center;
+        color: #cea176;
+        font-size: 18px;
+        font-weight: 700;
+}
+.feel h2{
+    display: flex;
+        justify-content: center;
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: 11px;
+        margin-bottom: 46px;
+    }
+
+.f-menu img{
+    width: 100%;
+}
+.f-main{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+.f-mine{
+    display: flex;
+        width: 48%;
+        justify-content: space-between;
+        gap: 12px;
+        margin-left: 14px;
+        margin-top: 0px;
+        overflow: hidden;
+}
+
+.f-mine img{
+    width: 286px;
+}
+.f-menu{
+    width: 50%;
+}
+.f-male img{
+    width: 285px;
+}
+.btnnn{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 44px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #cea176;
+    padding: 23px 46px;
+    margin-left: 460px;
+}
+.btnnn:hover{
+    cursor: pointer;
+    background-color: #cea176;
+}
+.fall{
+  background-image: url(../img/Rectangle\ 14.png);
+  height: 520px;
+  margin-top: 90px;
+}
+.falls{
+    margin-left: 600px;
+}
+.falls h3{
+  position: absolute;
+    margin-top: 94px;
+    color: #cea176;
+    font-size: 18px;
+    font-weight: 600;
+}
+.falls h2{
+    font-size: 42px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 120px;;
+}
+
+.falls h5{
+    font-size: 18px;
+    margin-top: 185px;
+    position: absolute;
+}
+.falls p{
+    font-size: 11px;
+    position: absolute;
+    margin-top: 266px;
+}
+.btnnnn{
+  font-size: 18px;
+  position: absolute;
+  margin-top: 380px;
+  padding: 8px 40px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #cea176;
+}
+.btnnnn:hover{
+  background-color: #cea176;
+  cursor: pointer;
+}
+.law{
+  margin-top: 80px;
+  margin-left: 504px;
+}
+.law h4{
+  color: #cea176;
+  margin-bottom: 22px;
+}
+.law h2{
+  font-size: 37px;
+  margin-left: -76px;
+}
+
+.you{
+  display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 74px;
+}
+.zoom{
+  background: #232323;
+  height: 290px;
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  border: 1px solid #232323;
+  border-radius: 12px;
+}
+.zoom h4{
+  color: #cea176;
+  font-size: 18px;
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+}
+.zoom h3{
+  font-size: 21px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.zoom p{
+  font-size: 12px;
+  margin-top: 16px;
+}
+.fill{
+  margin-top: 70px;
+}
+.fill img{
+  height: 340px;
+  width: 340px;
+}
+.hill{
+  display: flex;
+      justify-content: center;
+      gap: 65px;
+}
+.nill{
+  background: #232323;
+  height: 130px;
+  width: 262px;
+  position: absolute;
+  padding: 20px;
+  margin-top: -49px;
+  margin-left: 12px;
+  border: 1px solid #232323;
+  border-radius: 12px;
+}
+.nill h5{
+  font-size: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.nill p{
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+.nill h3{
+  font-size: 15px;
+  color: #cea176;
+  display: flex;
+  justify-content: center;
+}
+.much{
+  margin-left: -398px;
+  margin-bottom: 90px;
+  font-size: 22px;
+  margin-top: 90px;
+  background-color: transparent;
+  color: #fff;
+  padding: 12px 23px;
+  border: 1px solid #cea176;
+}
+.much:hover{
+  cursor: pointer;
+  background-color: #cea176;
+}
+.let{
+  margin-top: 350px;
+}
+.let img{
+  height: 147px;
+}
+.get{
+  display: flex;
+      gap: 105px;
+      margin-bottom: 140px;
+}
+.get1 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.get1 h3{
+  color: #cea176;
+    font-size: 18px;
+}
+.get1 h2{
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.net img{
+  height: 457px;
+  width: 660px;
+}
+.wall{
+   display: flex;
+    justify-content: center;
+    gap: 107px;
+}
+.edge{
+  margin-left: 51px;
+  margin-top: 3px;
+}
+.edge p{
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.icon{
+  display: flex;
+  gap: 40px;
+}
+.in p{
+  margin-top: 30px;
+  font-size: 12px;
+}
+.list {
+  list-style: none;
+  margin-top: 17px;
+}
+.list ul{
+  margin-bottom: 23px;
+}
+.in h2{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.edge h4{
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.lift{
+  background: #232323;
+}
